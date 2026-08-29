@@ -10,9 +10,9 @@ real pretrained weights, then fine-tuned three different ways — frozen head,
 LoRA (implemented from scratch, not `peft`), and full fine-tune — and compared
 against a TF-IDF baseline on two tasks: spam detection and IMDB sentiment.
 
-![GPT architecture](assets/architecture.png)
+![GPT architecture](asset/architecture.png)
 
-![LoRA weight update](assets/lora.jpg)
+![LoRA weight update](asset/lora.jpg)
 
 ## Results
 
