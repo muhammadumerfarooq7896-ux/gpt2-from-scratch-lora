@@ -1,0 +1,24 @@
+# Model checkpoints - the full fine-tune one alone is ~523MB, over GitHub's
+# 100MB file limit. Exclude the whole folder rather than picking files by hand.
+checkpoints/
+*.pt
+*.joblib
+
+# Downloaded GPT-2 weights (re-downloaded fresh each Colab session anyway)
+gpt2_weights/
+
+# Datasets - kept in Drive, not the repo
+*.csv
+aclImdb/
+aclImdb_v1.tar.gz
+sms_spam_collection/
+sms_spam_collection.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS clutter
+.DS_Store
